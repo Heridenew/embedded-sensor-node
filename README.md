@@ -32,24 +32,3 @@ pio run -t upload
 
 # Monitor serial
 pio device monitor
-
-
-## 🚀 Estrutura
-
-
-include/         # Headers públicos
-├── sensor_data.h
-├── sensor_task.h
-├── display_task.h
-└── queue_manager.h
-
-src/             # Implementações
-├── main.c
-├── sensor_task.c
-├── display_task.c
-└── queue_manager.c
-
-platformio.ini   # Configuração do PlatformIO
-CMakeLists.txt   # Configuração do ESP-IDF
-
-```bash
