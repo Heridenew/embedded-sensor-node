@@ -8,18 +8,18 @@
 Projeto de firmware embarcado para ESP32 utilizando ESP-IDF e FreeRTOS. Implementa arquitetura multitarefa com comunicação entre tasks via Queue (producer/consumer).
 
 ## Roadmap
-- ✅ **Multitarefa** com FreeRTOS 
-- ✅ **Comunicação entre tasks** via Queue
-- ✅ **Estrutura de dados** compartilhada 
-- ✅ **Tratamento de erros** na criação de tasks e queue
-- ✅ **Simulação de dados** do sensor com variação realista
-- ✅ **Modularização** 
-- [ ] Event manager
-- [ ] Wi-Fi state machine
-- [ ] MQTT integration
-- [ ] OLED display
-- [ ] OTA updates
-- [ ] PCB design
+✅ **Multitarefa** com FreeRTOS 
+✅ **Comunicação entre tasks** via Queue
+✅ **Estrutura de dados** compartilhada 
+✅ **Tratamento de erros** na criação de tasks e queue
+✅ **Simulação de dados** do sensor com variação realista
+✅ **Modularização** 
+[ ] Event manager
+[ ] Wi-Fi state machine
+[ ] MQTT integration
+[ ] OLED display
+[ ] OTA updates
+[ ] PCB design
 
 ## Arquitetura
 [ SensorTask ] → [ Queue ] → [ DisplayTask ]
