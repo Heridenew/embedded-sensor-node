@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../git/Embarcados-Projects"
+		},
+		{
+			"name": "embedded-sensor-node",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
